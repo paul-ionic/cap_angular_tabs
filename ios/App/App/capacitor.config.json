@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "cap_angular_tabs",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
