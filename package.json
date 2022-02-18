@@ -11,7 +11,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "prebuild": "echo prebuild test panda",
-    "postbuild": "echo postbuild test panda"
+    "postbuild": "echo postbuild test panda",
+    "appflow:build": "'netrc': 'sed -i.bak \"s/MAPBOX_ACCESS_TOKEN/${MAPBOX_TEST}/\" .netrc && chmod 600 .netrc'"
   },
   "private": true,
   "dependencies": {
